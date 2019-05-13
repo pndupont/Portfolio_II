@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Hello! Portfolio Page</title>
+        <style>
+            body {
+            padding-top: 5rem;
+            }
+            .template {
+            padding: 3rem 1.5rem;
+            text-align: center;
+            }
+
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 40%;
+                }
+    
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active">Projects<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact">Contact</a>
+                    </li>
+
+
+                    <!-- disabled for later use -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Redundant Buttons</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="/">Home</a>
+                            <a class="dropdown-item" class="nav-item active" href="projects">Projects</a>
+                            <a class="dropdown-item" href="contact">Contact</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search Not Implemented Yet" aria-label="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <main role="main" class="container">
+            <h1 class = "template">Projects</h1>
+    <div class="row">
+        <div class="col-sm-12">
+            <table class="table table-hover table-dark">
+                <thead>
+                    <tr>
+                        <th class = "col-md-auto">Project</th>
+                        <th class = "col-md-6">Description</th>
+                        <th class = "col-md-auto">Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hard Lens Media</td>
+                        <td><img src = "images/HLM_Setup.jpg" alt = "Photo of HLM live-streaming computer setup" style = "max-width: 50%"><br><p>Hard Lens Media is an independent news company which covers local news, grassroots organizations, and political issues with a focus on groups, events and individuals that do not have access to media coverage with the goal of creating a more informed public.</p></td>
+                        <td><a href = "https://www.youtube.com/channel/UCCOYSB2aauO71Ut0Pl4SfzA/">Hard Lens Media YouTube Page</a></td>
+                    </tr>
+                    <tr>
+                        <td>Coding Dojo</td>
+                        <td><img src = "images/Coding_Dojo.png" alt = "marketing image for Coding Dojo" style = "max-width: 75%"><br><p>Our Onsite Coding Bootcamp will teach you more than coding - you'll learn how to solve problems and be a self-sufficient developer.</p></td>
+                        <td><a href = "https://www.codingdojo.com/">Coding Dojo's Main Website</a></td>
+                    </tr>
+                    <tr>
+                        <td>Indie Game Dev</td>
+                        <td><img src = "images/Indie_Games.png" alt = "Image I found online searching for 'indie games'" style = "max-width: 75%"><br><p>I'm passionate about games and will for sure be working on some of my own in the future.</p></td>
+                        <td><a href = "https://store.steampowered.com/">I'd like to eventually put some games on Steam</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+        </main>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+</html>
